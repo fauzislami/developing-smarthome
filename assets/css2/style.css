@@ -1,0 +1,68 @@
+.huruf {
+
+    font-size: 200%;	
+    font-style: oblique;
+}
+
+.logo-atas {
+
+	max-width: 	50%;
+	height: auto;
+}
+
+.buttonHidup {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    float: left;
+}
+
+
+
+.buttonMati {
+    background-color: #FF0000; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width:100%;
+    float: left;
+}
+
+.buttonHidup:hover {
+    background-color: #236817;
+    color: white;
+}
+
+
+.buttonMati:hover {
+	background-color: #800000;
+	color: white;
+}
+
+.buttonHidup:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonMati:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
